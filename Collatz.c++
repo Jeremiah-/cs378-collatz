@@ -48,6 +48,11 @@ int collatz_eval (int i, int j) {
         i = temp;
     }
 
+    // let m = j / 2. If i < m, max_cycle_length(i, j) = max_cycle_length(m, j)
+    if (i < (j / 2)) {
+        i = j / 2;
+    }
+
     for (int m = i; m <= j; ++m) {
         int val = m;
         current_cycle = 1;

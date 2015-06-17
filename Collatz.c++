@@ -61,7 +61,8 @@ int collatz_eval (int i, int j) {
             if (val % 2 == 0) {
                 val = val / 2;
             } else {
-                val = 3 * val + 1;
+                // this does 3n + 1 AND divides by 2
+                val = val + (val / 2) + 1;
             }
             ++current_cycle;
         }

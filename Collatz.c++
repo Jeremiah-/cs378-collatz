@@ -49,8 +49,8 @@ int collatz_eval (int i, int j) {
     }
 
     // let m = j / 2. If i < m, max_cycle_length(i, j) = max_cycle_length(m, j)
-    if (i < (j / 2)) {
-        i = j / 2;
+    if (i < (j >> 1)) {
+        i = j >> 1;
     }
 
     for (int m = i; m <= j; ++m) {
@@ -59,10 +59,10 @@ int collatz_eval (int i, int j) {
 
         while (val > 1) {
             if (val % 2 == 0) {
-                val = val / 2;
+                val = val >> 1;
             } else {
                 // this does 3n + 1 AND divides by 2
-                val = val + (val / 2) + 1;
+                val = val + (val >> 1) + 1;
                 ++current_cycle;
             }
             ++current_cycle;

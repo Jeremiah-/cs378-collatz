@@ -40,6 +40,13 @@ int collatz_eval (int i, int j) {
 
     int max_cycle = 1;
     int current_cycle = 1;
+    int temp;
+
+    if (i > j) {
+        temp = j;
+        j = i;
+        i = temp;
+    }
 
     for (int m = i; m <= j; ++m) {
         int val = m;

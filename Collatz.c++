@@ -68,6 +68,7 @@ int collatz_eval (int i, int j) {
             current_cycle = cycle_cache[val];
         }
         #endif
+        
         if (current_cycle == 1) {
             while (val > 1) {
                 if (val % 2 == 0) {

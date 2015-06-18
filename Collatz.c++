@@ -16,6 +16,12 @@
 
 #include "Collatz.h"
 
+#define USING_ARRAY true
+
+#ifdef USING_ARRAY
+int cycle_cache[1000000] = {}; 
+#endif
+
 using namespace std;
 
 // ------------
@@ -53,26 +59,35 @@ int collatz_eval (int i, int j) {
         i = j >> 1;
     }
 
-    // TODO: need to check for overflow values
-
     for (int m = i; m <= j; ++m) {
         int val = m;
         current_cycle = 1;
 
-        while (val > 1) {
-            if (val % 2 == 0) {
-                val >>= 1;
-            } else {
-                // this does 3n + 1 AND divides by 2
-                val += ((val >> 1) + 1);
+        #ifdef USING_ARRAY
+        if (cycle_cache[val] != 0) {
+            current_cycle = cycle_cache[val];
+        }
+        #endif
+        if (current_cycle == 1) {
+            while (val > 1) {
+                if (val % 2 == 0) {
+                    val >>= 1;
+                } else {
+                    // this does 3n + 1 AND divides by 2
+                    val += ((val >> 1) + 1);
+                    ++current_cycle;
+                }
                 ++current_cycle;
             }
-            ++current_cycle;
         }
 
         if (current_cycle > max_cycle) {
             max_cycle = current_cycle;
         }
+
+        #ifdef USING_ARRAY
+        cycle_cache[m] = current_cycle;
+        #endif
     }
 
     assert (max_cycle > 0);

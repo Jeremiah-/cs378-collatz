@@ -1,0 +1,137 @@
+commit 84ddbdf4d0002fb15617af0d772cf63ecd518da4
+Author: Jeremiah Martinez <jeremiah@cs.utexas.edu>
+Date:   Wed Jun 17 21:08:28 2015 -0500
+
+    added a cache to sphereCollatz.
+
+commit fd9818a3c85f3acd134eaeaac6d91d2a61a4ed3e
+Author: Jeremiah Martinez <jeremiah@cs.utexas.edu>
+Date:   Wed Jun 17 21:00:11 2015 -0500
+
+    closes #7. closes #8. Added a cache to collatz
+
+commit 0c705886a0fbb55fb96d29ede743143fea1d3a56
+Author: Jeremiah Martinez <jeremiah@cs.utexas.edu>
+Date:   Wed Jun 17 19:50:18 2015 -0500
+
+    Added 100 acceptance tests. closes #6.
+
+commit b96bcbb1e2168fc37c2fcfd892c2cc366afa829b
+Author: Jeremiah Martinez <jeremiah@cs.utexas.edu>
+Date:   Wed Jun 17 19:49:10 2015 -0500
+
+    Made 100 acceptance tests. closes #6.
+
+commit 87cc2c013137430d19564e096a6d7f81f9253d9c
+Author: Jeremiah Martinez <jeremiah@cs.utexas.edu>
+Date:   Wed Jun 17 17:46:10 2015 -0500
+
+    Adding sphere accepted code.
+
+commit a0529789a4335c545fa7c5bb15ebdb619c70997f
+Author: Jeremiah Martinez <jeremiah@cs.utexas.edu>
+Date:   Wed Jun 17 01:58:39 2015 -0500
+
+    closes #21. Added this optimization.
+
+commit b6eb0be64018e72a06e4086c8e92b48c808c3c1b
+Author: Jeremiah Martinez <jeremiah@cs.utexas.edu>
+Date:   Wed Jun 17 01:54:22 2015 -0500
+
+    closes #20. Added this optimization.
+
+commit 6f38ca5cf07e38ce5f13f49b3d9f7cae2f8b29f6
+Author: Jeremiah Martinez <jeremiah@cs.utexas.edu>
+Date:   Wed Jun 17 01:40:11 2015 -0500
+
+    closes #19. The last optimization needed to increment the currect cycle.
+
+commit d3981ce9b2323a8fef2a1801298a24e069c0fa1d
+Author: Jeremiah Martinez <jeremiah@cs.utexas.edu>
+Date:   Wed Jun 17 01:37:09 2015 -0500
+
+    closes #18. Added this optimization.
+
+commit f576aac2714772509bbe1c0a67750930ea5ff502
+Author: Jeremiah Martinez <jeremiah@cs.utexas.edu>
+Date:   Wed Jun 17 01:08:32 2015 -0500
+
+    closes #17. Added this optimization.
+
+commit 730dfdaa6f3a84b25e617ba802260e036abdd1cd
+Author: Jeremiah Martinez <jeremiah@cs.utexas.edu>
+Date:   Wed Jun 17 00:31:31 2015 -0500
+
+    closes #16. Added a check for the case where i > j.
+
+commit 540bd7e0128f197e4d5ab5a31bd3cd3bce52ea13
+Author: Jeremiah Martinez <jeremiah@cs.utexas.edu>
+Date:   Wed Jun 17 00:02:09 2015 -0500
+
+    closes #15. closes #5. Made a simple solution with assertions to check for correctness.
+
+commit 50d6b80308c7c5a48b2227260e09be20a5fd9a0e
+Author: Jeremiah Martinez <jeremiah@cs.utexas.edu>
+Date:   Tue Jun 16 21:30:22 2015 -0500
+
+    closes #14. Added more unit tests, an average of 3 for each.
+
+commit bd51ea2ab76bef2672fc38c6fbcacf10c2653332
+Author: Jeremiah Martinez <jeremiah@cs.utexas.edu>
+Date:   Tue Jun 16 15:31:24 2015 -0500
+
+    Fixed the unit tests.
+
+commit 26d0945a8d582a687d95c6bd6aa802114b122e4d
+Author: Jeremiah Martinez <jeremiah@cs.utexas.edu>
+Date:   Tue Jun 16 14:41:11 2015 -0500
+
+    Ran the tests again. Nothing should change other than TestCollatz.out
+
+commit 059e481f842ef12bc21c76d19ce905f66c5ff546
+Author: Jeremiah- <Jeremiah.H.Martinez@utexas.edu>
+Date:   Tue Jun 16 13:34:24 2015 -0500
+
+    Delete README.md
+
+commit e8d8dcf885e767fe719803ef40974dadf7f9ab34
+Author: Jeremiah- <Jeremiah.H.Martinez@utexas.edu>
+Date:   Tue Jun 16 13:34:18 2015 -0500
+
+    Delete README
+
+commit 6fafcb5ee954c0b0c7f268727baddd1528d7a71e
+Author: Jeremiah- <Jeremiah.H.Martinez@utexas.edu>
+Date:   Tue Jun 16 13:27:19 2015 -0500
+
+    Delete RunCollatz.sample.out
+
+commit 1c289bb3968fdb81fb1a50b7aabba86ba3a3e194
+Author: Jeremiah- <Jeremiah.H.Martinez@utexas.edu>
+Date:   Tue Jun 16 13:26:58 2015 -0500
+
+    Delete RunCollatz
+
+commit 5ea156cedf9f73db4cccef8d3f28a1ce87418bed
+Author: Jeremiah- <Jeremiah.H.Martinez@utexas.edu>
+Date:   Tue Jun 16 13:26:50 2015 -0500
+
+    Delete TestCollatz
+
+commit a295f4f89710b96bc8dc25ea18fea36f37c01143
+Author: Jeremiah- <Jeremiah.H.Martinez@utexas.edu>
+Date:   Tue Jun 16 13:24:33 2015 -0500
+
+    Delete TestCollatz.sample.out
+
+commit e4b5d47edcb60fbae2dfa53c32244f9f4215ca15
+Author: Jeremiah Martinez <jeremiah@cs.utexas.edu>
+Date:   Tue Jun 16 13:08:57 2015 -0500
+
+    Closes #2. Adding base files to dev branch.
+
+commit d67b6a18e3b0e8124b56f49e16ae53eabb09d328
+Author: Jeremiah- <Jeremiah.H.Martinez@utexas.edu>
+Date:   Thu Jun 11 14:30:18 2015 -0500
+
+    Initial commit
